@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo12.mapper.ListMapper">
+    <select id="getPosts" resultType="com.example.demo12.model.Post">
+        SELECT
+            post_no,
+            user_id,
+            title,
+            CREATED_AT,
+            view_cnt,
+            content
+        FROM posts
+    </select>
+</mapper>

@@ -79,12 +79,12 @@
 
     <!-- Sidebar -->
     <ul class="col-2 navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
             <div class="sidebar-brand-text mx-3">CareerPath <sup></sup></div>
         </a>
         <hr class="sidebar-divider my-0">
         <li class="nav-item active">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="/">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span>
             </a>
@@ -105,7 +105,7 @@
 
         <!-- Comunity -->
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/comunity/list">
                 <i class="fa fa-comments-o" aria-hidden="true"></i>
                 <span>Comunity</span>
             </a>
